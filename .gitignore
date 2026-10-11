@@ -1,0 +1,16 @@
+# 忽略 Hugo 自動生成的靜態網頁輸出資料夾
+/public/
+/resources/_gen/
+
+# 忽略 Hugo 構建鎖定檔與統計檔
+.hugo_build.lock
+hugo_stats.json
+
+# 如果你是在本地放了 Hugo 執行檔，也需要忽略
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# （選填）忽略作業系統與開發工具產生的垃圾檔案
+.DS_Store
+.vscode/
